@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/nav_Lista_de_Favoritos"
+            android:icon="@mipmap/coracaooff_background"
+            android:title="@string/Text_faroritos" />
+
+        <item
+            android:id="@+id/nav_config"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/config_conta" />
+
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_send" />
+        <item
+            android:id="@+id/nav_sair"
+            android:icon="@drawable/sair"
+            android:title="@string/sair" />
+
+</group>
+
+
+</menu>
+
+
